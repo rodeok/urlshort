@@ -47,7 +47,7 @@ export default function Home() {
           </Link>
         </p>
       )}
-      <h3 className="text-white mt-4 text-center">Made by Favlinksoftware</h3>
+      <h3 className="text-white mt-4 text-center">Made by Favlinksoftware<p>Developed with Nextjs and Flask</p></h3>
     </div>
   );
 }
