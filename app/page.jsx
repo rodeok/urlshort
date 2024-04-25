@@ -25,7 +25,8 @@ export default function Home() {
       <h1 className="text-3xl font-bold mb-4 text-center">URL Shortener</h1>
       <form onSubmit={handleSubmit} className="flex flex-col md:flex-row">
         <input
-          type="text"
+          type="url"
+          required
           placeholder="Enter long URL"
           value={longUrl}
           onChange={(e) => setLongUrl(e.target.value)}
