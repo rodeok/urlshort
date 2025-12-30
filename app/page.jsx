@@ -32,7 +32,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-8 bg-gradient-to-r from-indigo-500 to-purple-500">
-      <h1 className="text-3xl font-bold mb-4 text-center text-white">URL Shortener</h1>
+      <h1 className="text-3xl font-bold mb-4 text-center text-white">URL SHORTNER</h1>
       <div className="bg-white rounded-lg shadow-md p-6 max-w-md w-full">
         <form onSubmit={handleSubmit} className="flex flex-col md:flex-row">
           <div className="flex items-center rounded-l-md bg-gray-100 px-3 py-2 md:w-80">
